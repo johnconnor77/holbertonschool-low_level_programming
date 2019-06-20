@@ -9,11 +9,9 @@
 int main(void)
 {
 int num;
-char n2c;
 for (num = 0; num < 10; ++num)
 {
-n2c = num + '0';
-putchar(n2c);
+putchar(num + '0');
 }
 putchar('\n');
 return (0);
