@@ -2,7 +2,7 @@
 /**
  * int_abs - Absolute value for any integer.
  * @n: input value for checking restrictions
- * Return: 0,1, -1
+ * Return: Absolute value
  */
 int _abs(int n)
 {
