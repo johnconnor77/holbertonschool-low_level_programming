@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * _islower - check on lowercase values.
+ * _isalpha - check on alphabet values.
  * @c: input value for checking restrictions
  * Return: 0 or 1
  */
