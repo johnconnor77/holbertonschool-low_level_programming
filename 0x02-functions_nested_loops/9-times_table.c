@@ -23,7 +23,7 @@ int m, n, p;
 			}
 			else if (n == 0)
 			{
-				putchar(p + '0');
+				_putchar(p + '0');
 			}
 			else if (p <= 9 && n > 0)
 			{
