@@ -1,10 +1,8 @@
 #include "holberton.h"
-
 /**
  * times_table - print the products between number from 0 to 9
  * Return: void
  */
-
 void times_table(void)
 {
 int m, n, p;
@@ -46,3 +44,4 @@ int m, n, p;
 	}
 return;
 }
+
