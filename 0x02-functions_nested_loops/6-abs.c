@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * int_abs - Absolute value for any integer.
+ * _abs - Absolute value for any integer.
  * @n: input value for checking restrictions
  * Return: Absolute value
  */
