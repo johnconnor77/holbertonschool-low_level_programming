@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- *isupper -function that checks if c is uppercase
+ *_isupper -function that checks if c is uppercase
  *@c:inpult variable
  *Return:1 is uppercase otherwise 0
  */
@@ -17,3 +17,4 @@ else
 }
 return (val);
 }
+
