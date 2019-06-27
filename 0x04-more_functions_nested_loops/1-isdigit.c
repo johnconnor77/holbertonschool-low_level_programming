@@ -1,5 +1,4 @@
 #include "holberton.h"
-#include <stdio.h>
 /**
  *_isdigit -function that checks if c is digit 0 to 9
  *@c:inpult variable
