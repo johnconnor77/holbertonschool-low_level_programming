@@ -1,13 +1,14 @@
 #include "holberton.h"
 /**
- *isupper -function that checks if c is uppercase
+ *isdigit -function that checks if c is digit 0 to 9
  *@c:inpult variable
- *Return:1 is uppercase otherwise 0
+ *Return:1 is digit otherwise 0
  */
-int _isupper(char c)
+int _isdigit(int c)
 {
 int val;
-if (c >= 'A' && c <= 'Z')
+c ='0'- c;
+if (c >= 0 && c <= 9)
 {
 	val = 1;
 }
@@ -17,3 +18,4 @@ else
 }
 return (val);
 }
+
