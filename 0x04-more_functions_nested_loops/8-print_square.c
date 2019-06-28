@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- *print_square - prints diagonal at long size n
+ *print_square - prints square at long size n
  *@size:input size of square
  *Return:void
  */
