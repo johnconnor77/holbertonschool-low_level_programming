@@ -11,15 +11,13 @@ n = size;
 
 if (n <= 0)
 {
-	_putchar('\n');
+_putchar('\n');
 }
 else
 {
 k = n;
 	for (j = 1; j <= n; j++)
 	{
-
-	_putchar(k + '0');
 		for (i = 1; i <= n; i++)
 		{
 			if (i >= k)
@@ -35,6 +33,7 @@ k = n;
 	_putchar('\n');
 	}
 }
+
 return;
 }
 
