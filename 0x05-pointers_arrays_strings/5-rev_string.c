@@ -16,10 +16,10 @@ for (i = 0; s[i] != '\0'; i++)
 }
 for (j = i - 1 ; s[j] != '\0'; j--)
 {
- 	aux[m] = s[j];
-m++;
+	aux[m] = s[j];
+	m++;
 }
-for (k = 0; s[k] != '\0'; k++)
+for (k = 0; k < i; k++)
 {
 	s[k] = aux[k];
 }
