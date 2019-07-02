@@ -10,7 +10,7 @@ int i, j;
 for (j = 0; str[j] != '\0'; j++)
 {
 }
-for (i = 0; i <= j ; i += 2)
+for (i = 0; i < j ; i += 2)
 {
 _putchar(str[i]);
 }
