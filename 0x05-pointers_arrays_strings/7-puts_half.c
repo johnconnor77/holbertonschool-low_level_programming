@@ -20,7 +20,7 @@ else
 {
 	half = (i - 1) / 2;
 }
-for (j = half; s[j] != '\0'; j++)
+for (j = half; j < i; j++)
 {
 	_putchar(s[j]);
 }
