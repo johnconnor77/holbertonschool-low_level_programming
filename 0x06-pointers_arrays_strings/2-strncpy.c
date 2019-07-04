@@ -2,7 +2,7 @@
 /**
  *_strncpy -function that copies a string.
  *@src: string input
- *@dest: output from function where its replaced 
+ *@dest: output from function where its replaced
  *@n:size of bytes to print
  *Return: dest string
 */
