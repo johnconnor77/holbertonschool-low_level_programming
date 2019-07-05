@@ -12,6 +12,8 @@ int _atoi(char *s)
 int a2i;
 int min;
 char *aux;
+int flag = 0;
+
 
 	aux = s;
 
@@ -30,7 +32,12 @@ char *aux;
 		if (*s >= '0' && *s <= '9')
 		{
 			a2i *= 10 + (*s - '0');
-			s++;
+			flag = 1;
+		}
+		else
+		{
+			if (flag == 1)
+				break;
 		}
 	s++;
 	}
