@@ -18,9 +18,9 @@ for (k = 0; needle != '\0',k++)
 
 for (j = 0; haystack[j] != '\0'; j++)
 {
-	for (i = 0; accept[i] != '\0'; i++)
+	for (i = 0; needle[i] != '\0'; i++)
 	{
-		if (haystack[j] == accept[i])
+		if (haystack[j] == needle[i])
 		{
 			flag ++;
 		}
@@ -29,8 +29,9 @@ for (j = 0; haystack[j] != '\0'; j++)
 if (flag == k)
 {
 	break;
+	return (s + j)
 }
-else
 }
-return (haystack);
+
+return NULL;
 }
