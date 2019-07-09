@@ -1,37 +1,32 @@
 #include"holberton.h"
 /**
- *_strpbrk -function that searches a string for any of a set of bytes
+ *_strstr -function that searches a string f
  *@needle: string inlet
  *@haystack: match statement string
  *Return: s
 **/
 char *_strstr(char *haystack, char *needle)
 {
-int k, i, j, flag;
-
-flag = 0;
-
-for (k = 0; needle != '\0',k++)
-{
-}
-
+int i, j;
+int flag;
 
 for (j = 0; haystack[j] != '\0'; j++)
 {
 	for (i = 0; needle[i] != '\0'; i++)
 	{
-		if (haystack[j] == needle[i])
+	flag = 0;
+		if (haystack[j + i] != needle[i])
 		{
-			flag ++;
+		flag = 1;
+		break;
 		}
-	
+
 	}
-if (flag == k)
-{
-	break;
-	return (s + j)
+	if (needle[i] == '\0' && flag == 0)
+	{
+	return ((haystack + j));
+	}
 }
+return (0);
 }
 
-return NULL;
-}
