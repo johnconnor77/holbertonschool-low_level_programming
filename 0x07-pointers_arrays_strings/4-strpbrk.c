@@ -9,9 +9,10 @@ char *_strpbrk(char *s, char *accept)
 {
 int i, flag;
 
-flag = 0;
+
 while (*s != '\0')
 {
+	flag = 0;
 	for (i = 0; accept[i] != '\0'; i++)
 	{
 		if (*s == accept[i])
@@ -22,9 +23,9 @@ while (*s != '\0')
 	}
 if (flag == 1)
 {
-	break;
+	return (s);
 }
 s++;
 }
-return (s);
+return (0);
 }
