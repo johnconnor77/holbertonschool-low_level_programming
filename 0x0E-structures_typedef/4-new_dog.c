@@ -10,6 +10,7 @@
 int _strlen(char *s)
 {
 	int i;
+
 	for (i = 0; s[i] != '\0'; i++)
 		;
 	i++;
@@ -25,6 +26,7 @@ int _strlen(char *s)
 char *_strcpy(char *dest, char *src)
 {
 	int i, j;
+
 	for (i = 0; src[i] != '\0'; i++)
 		;
 	for (j = 0; j < i; j++)
@@ -59,13 +61,13 @@ dog_t *new_dog(char *name, float age, char *owner)
 		return (NULL);
 
 	/* Leng of Fields name and owner allocation */
-	n_dog->name = malloc(sizeof(char)*len_name);
+	n_dog->name = malloc(sizeof(char) * len_name);
 	if (n_dog->name == NULL)
 	{
 		free(n_dog);
 		return (NULL);
 	}
-	n_dog->owner = malloc(sizeof(char)*len_owner);
+	n_dog->owner = malloc(sizeof(char) * len_owner);
 	if (n_dog->owner == NULL)
 	{
 		free(n_dog->name);
