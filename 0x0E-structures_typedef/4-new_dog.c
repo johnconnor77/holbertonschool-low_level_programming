@@ -46,20 +46,24 @@ char *_strdup(char *str)
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	char *cpy_name, *cpy_owner;
-	dog_t *cpy;
+	dog_t *new_dog;
 
 	if (name == NULL || owner == NULL)
 		return (NULL);
+
 	/*allocate pointer with struc size*/
-	cpy = malloc(sizeof(dog_t));
-	if (cpy == NULL)
+	new_dog = malloc(sizeof(dog_t));
+	if (new_dog == NULL)
+	{
+		free(new_dog);
 		return (NULL);
+	}
 	/* Copying variables */
 	cpy_name = _strdup(name);
 	cpy_owner = _strdup(owner);
-	cpy->name = cpy_name;
-	cpy->owner = cpy_owner; 
-	cpy->age = age;
-return (cpy);
+	new_dog->name = cpy_name;
+	new_dog->owner = cpy_owner; 
+	new_dog->age = age;
+return (new_dog);
 }
 
