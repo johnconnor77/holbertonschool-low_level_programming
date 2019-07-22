@@ -55,7 +55,6 @@ dog_t *new_dog(char *name, float age, char *owner)
 	new_dog = malloc(sizeof(dog_t));
 	if (new_dog == NULL)
 	{
-		free(new_dog);
 		return (NULL);
 	}
 	/* Copying variables */
@@ -65,8 +64,6 @@ dog_t *new_dog(char *name, float age, char *owner)
 	new_dog->owner = cpy_owner;
 	new_dog->age = age;
 
-	free(cpy_name);
-	free(cpy_owner);
 return (new_dog);
 }
 
