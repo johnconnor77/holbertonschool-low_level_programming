@@ -2,38 +2,38 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- *_strdup - function that returns a pointer to a newly allocated space
- * in memory, which contains a copy of the string given as a parameter
- * @str: input size of array
- * Return: s output char duplicated from str
+ *_strlen - function that calculate the lenght
+ * of the input string
+ * @s: string input
+ * Return: lenght of string
  */
-char *_strdup(char *str)
+int _strlen(char *s)
 {
-	char *s;
-	unsigned int i, j;
-
-	if (str == NULL)
-	{
-	return (NULL);
-	}
-
-	for (j = 0; str[j] != '\0'; j++)
+	int i;
+	for (i = 0; s[i] != '\0'; i++)
 		;
-	s = malloc(j + 1);
-
-	if (s == NULL)
+	i++;
+	return (i);
+}
+/**
+ *_strcpy - put a string pointer into other one
+ *Result: dest
+ *@dest:string inlet
+ *@src: string outlet
+ *Return: value depending on function
+ */
+char *_strcpy(char *dest, char *src)
+{
+	int i, j;
+	for (i = 0; src[i] != '\0'; i++)
+		;
+	for (j = 0; j < i; j++)
 	{
-	return (NULL);
+		dest[j] = src[j];
 	}
+	dest[i] = src[i];
 
-	i = 0;
-	while (i <= j)
-	{
-		s[i] = str[i];
-		i++;
-	}
-	s[i + 1] = '\0';
-	return (s);
+	return (dest);
 }
 /**
  * new_dog - function that creates a new dog
@@ -44,36 +44,38 @@ char *_strdup(char *str)
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
-	char *cpy_name, *cpy_owner;
+	int len_name, len_owner;
 	dog_t *n_dog;
 
 	if (name == NULL || owner == NULL)
 		return (NULL);
+	/* length of name and owner */
+	len_name = _strlen(name);
+	len_owner = _strlen(owner);
 
 	/*allocate pointer with struct size*/
-	n_dog = malloc(sizeof(struct dog));
+	n_dog = malloc(sizeof(dog_t));
 	if (n_dog == NULL)
+		return (NULL);
+
+	/* Leng of Fields name and owner allocation */
+	n_dog->name = malloc(sizeof(char)*len_name);
+	if (n_dog->name == NULL)
 	{
+		free(n_dog);
+		return (NULL);
+	}
+	n_dog->owner = malloc(sizeof(char)*len_owner);
+	if (n_dog->owner == NULL)
+	{
+		free(n_dog->name);
+		free(n_dog);
 		return (NULL);
 	}
 	/* Copying variables */
-	cpy_name = _strdup(name);
 
-	if (cpy_name == NULL)
-	{
-		free(cpy_name);
-		free(n_dog);
-	}
-
-	cpy_owner = _strdup(owner);
-	if (cpy_owner == NULL)
-	{
-		free(cpy_name);
-		free(cpy_owner);
-		free(n_dog);
-	}
-	n_dog->name = cpy_name;
-	n_dog->owner = cpy_owner;
+	_strcpy(n_dog->name, name);
+	_strcpy(n_dog->owner, owner);
 	n_dog->age = age;
 
 return (n_dog);
