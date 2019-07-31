@@ -1,4 +1,4 @@
-# 0x0F. C - Variadic functions
+# 0x10 - Variadic functions
 ---
 
 * What are variadic functions
