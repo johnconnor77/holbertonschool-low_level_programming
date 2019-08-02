@@ -1,4 +1,4 @@
-<img align="center" src="https://www.computerhope.com/cdn/linux/printf.gif" width="100%" />   
+<img align="center" src="https://i.ibb.co/0QF0kBn/printf.png" width="30%"/>   
          
 ---
 
