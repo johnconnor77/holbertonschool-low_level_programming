@@ -1,13 +1,5 @@
-
-            _       _    __  
-           (_)     | |  / _| 
- _ __  _ __ _ _ __ | |_| |_  
-| '_ \| '__| | '_ \| __|  _| 
-| |_) | |  | | | | | |_| |   
-| .__/|_|  |_|_| |_|\__|_|   
-| |                          
-|_|                          
-                      
+<img align="center" src="https://www.computerhope.com/cdn/linux/printf.gif" width="100%" />   
+         
 ---
 
 Here you will fine a function that represents a similar methodology for showing outputs of data at some runtime in C language
