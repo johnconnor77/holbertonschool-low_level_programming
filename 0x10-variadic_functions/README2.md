@@ -1,12 +1,5 @@
-#
-#             _       _    __  
-#            (_)     | |  / _| 
-#  _ __  _ __ _ _ __ | |_| |_  
-# | '_ \| '__| | '_ \| __|  _| 
-# | |_) | |  | | | | | |_| |   
-# | .__/|_|  |_|_| |_|\__|_|   
-# | |                          
-# |_|                          
+<img align="center" src="https://i.ibb.co/0QF0kBn/printf.png" width="30%"/>   
+         
 ---
 
 Here you will fine a function that represents a similar methodology for showing outputs of data at some runtime in C language
@@ -23,12 +16,16 @@ Here you will fine a function that represents a similar methodology for showing 
 
 
 ## Compilation 
-First compile all projects with a main program that allows to check cases
+First compile all project with a main program that allows you to invoke principal function _printf.c
+
 ```sh 
 $gcc -Wall -Wextra -Werror -pedantic -Wno-format *.c holberton.h -o <nameofexecutable>
+```
 Besides that execute it for seein the output at shell
-$./"nameofexecutable"
 
+```sh 
+$./"nameofexecutable"
+```
 ---
 
 ## Authors
