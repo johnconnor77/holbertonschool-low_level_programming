@@ -19,7 +19,7 @@ listint_t *create_node(int data)
 /**
  * add_nodeint - function that adds a new node to the beginning of a list
  * @head: pointer to head of the list
- * @n: value inside each node 
+ * @n: value inside each node
  * Return: Address of the new element or NULL if it fails
  */
 listint_t *add_nodeint(listint_t **head, const int n)
