@@ -6,7 +6,7 @@
  */
 void error_98(charu *fileto)
 {
-	dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", fd);
+	dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", fileto);
 	exit(98);
 }
 /**
@@ -16,7 +16,7 @@ void error_98(charu *fileto)
  */
 void error_99(char *filefrom)
 {
-	dprintf(STDERR_FILENO, "Error: Can't write to %s\n", fd);
+	dprintf(STDERR_FILENO, "Error: Can't write to %s\n", filefrom);
 	exit(99);
 }
 /**
