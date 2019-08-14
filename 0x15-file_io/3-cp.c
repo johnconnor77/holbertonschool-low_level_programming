@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
  * error_98 - function for unread or not created file
- * @fileto: file name of filefrom after write fails
+ * @fileto: file name of filefrom after read fails
  * Return: Nothing
  */
 void error_98(charu *fileto)
