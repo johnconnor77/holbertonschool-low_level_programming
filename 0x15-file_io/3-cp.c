@@ -4,7 +4,7 @@
  * @fileto: file name of filefrom after read fails
  * Return: Nothing
  */
-void error_98(charu *fileto)
+void error_98(char *fileto)
 {
 	dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", fileto);
 	exit(98);
