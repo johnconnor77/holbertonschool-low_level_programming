@@ -1,28 +1,28 @@
 #include "holberton.h"
 /**
  * error_98 - function for unread or not created file
- * @fd: file descriptor output after read file from
+ * @fileto: file name of filefrom after write fails
  * Return: Nothing
  */
-void error_98(char *fd)
+void error_98(charu *fileto)
 {
 	dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", fd);
 	exit(98);
 }
 /**
  * error_99 - function for not created or unwrite file
- * @fd: file descriptor output after write for file to
+ * @filefrom: file name of fileto after write fail
  * Return: Nothing
  */
-void error_99(char *fd)
+void error_99(char *filefrom)
 {
 	dprintf(STDERR_FILENO, "Error: Can't write to %s\n", fd);
 	exit(99);
 }
 /**
  * error_100 - function for a file that cannot be closed
- * @fd: file descriptor output after close for
- * from file and file to
+ * @fd: file descriptor for fileto of filefrom
+ * after close fails
  * Return: Nothing
  */
 void error_100(int fd)
