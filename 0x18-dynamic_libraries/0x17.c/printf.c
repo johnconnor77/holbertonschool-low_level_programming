@@ -1,5 +1,5 @@
 #include <unistd.h>
-int puts(char *s)
+int puts(const char *s)
 {
 	(void)s;
 	write(1,"Congratulations, you win the Jackpot!\n", 38);
