@@ -1,3 +1,0 @@
-#!/bin/bash
-gcc -Wall -fPIC -c output.c
-gcc -shared -o jackpot.so output.o
