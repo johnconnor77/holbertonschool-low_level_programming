@@ -10,5 +10,5 @@ add_executable(main
 
         print_list.c
 
-        0-main.c 0-main.c)
+        0-main.c )
 
