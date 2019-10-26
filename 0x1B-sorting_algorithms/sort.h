@@ -4,7 +4,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
 /**
  * struct listint_s - Doubly linked list node
  *
@@ -20,6 +19,7 @@ typedef struct listint_s
 } listint_t;
 
 void bubble_sort(int *array, size_t size);
-
+void print_array(const int *array, size_t size);
+void print_list(const listint_t *list);
 
 #endif /* _SORT_H */
