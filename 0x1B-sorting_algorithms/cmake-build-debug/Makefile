@@ -123,6 +123,33 @@ main/fast:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+0-bubble_sort.o: 0-bubble_sort.c.o
+
+.PHONY : 0-bubble_sort.o
+
+# target to build an object file
+0-bubble_sort.c.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/0-bubble_sort.c.o
+.PHONY : 0-bubble_sort.c.o
+
+0-bubble_sort.i: 0-bubble_sort.c.i
+
+.PHONY : 0-bubble_sort.i
+
+# target to preprocess a source file
+0-bubble_sort.c.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/0-bubble_sort.c.i
+.PHONY : 0-bubble_sort.c.i
+
+0-bubble_sort.s: 0-bubble_sort.c.s
+
+.PHONY : 0-bubble_sort.s
+
+# target to generate assembly for a file
+0-bubble_sort.c.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/0-bubble_sort.c.s
+.PHONY : 0-bubble_sort.c.s
+
 0-main.o: 0-main.c.o
 
 .PHONY : 0-main.o
@@ -213,6 +240,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... main"
 	@echo "... edit_cache"
+	@echo "... 0-bubble_sort.o"
+	@echo "... 0-bubble_sort.i"
+	@echo "... 0-bubble_sort.s"
 	@echo "... 0-main.o"
 	@echo "... 0-main.i"
 	@echo "... 0-main.s"
