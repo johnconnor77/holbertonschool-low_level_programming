@@ -84,10 +84,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/eltueto/Desktop/holbertonschool-low_level_programming/0x1B-sorting_algorithms/0-bubble_sort.c">
+		<Unit filename="/home/eltueto/Desktop/holbertonschool-low_level_programming/0x1B-sorting_algorithms/1-insertion_sort_list.c">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/eltueto/Desktop/holbertonschool-low_level_programming/0x1B-sorting_algorithms/0-main.c">
+		<Unit filename="/home/eltueto/Desktop/holbertonschool-low_level_programming/0x1B-sorting_algorithms/1-main.c">
 			<Option target="main"/>
 		</Unit>
 		<Unit filename="/home/eltueto/Desktop/holbertonschool-low_level_programming/0x1B-sorting_algorithms/print_array.c">

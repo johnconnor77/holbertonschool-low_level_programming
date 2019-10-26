@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/eltueto/Desktop/holbertonschool-low_level_programming/0x1B-sorting_algorithms/0-bubble_sort.c" "/home/eltueto/Desktop/holbertonschool-low_level_programming/0x1B-sorting_algorithms/cmake-build-debug/CMakeFiles/main.dir/0-bubble_sort.c.o"
-  "/home/eltueto/Desktop/holbertonschool-low_level_programming/0x1B-sorting_algorithms/0-main.c" "/home/eltueto/Desktop/holbertonschool-low_level_programming/0x1B-sorting_algorithms/cmake-build-debug/CMakeFiles/main.dir/0-main.c.o"
+  "/home/eltueto/Desktop/holbertonschool-low_level_programming/0x1B-sorting_algorithms/1-insertion_sort_list.c" "/home/eltueto/Desktop/holbertonschool-low_level_programming/0x1B-sorting_algorithms/cmake-build-debug/CMakeFiles/main.dir/1-insertion_sort_list.c.o"
+  "/home/eltueto/Desktop/holbertonschool-low_level_programming/0x1B-sorting_algorithms/1-main.c" "/home/eltueto/Desktop/holbertonschool-low_level_programming/0x1B-sorting_algorithms/cmake-build-debug/CMakeFiles/main.dir/1-main.c.o"
   "/home/eltueto/Desktop/holbertonschool-low_level_programming/0x1B-sorting_algorithms/print_array.c" "/home/eltueto/Desktop/holbertonschool-low_level_programming/0x1B-sorting_algorithms/cmake-build-debug/CMakeFiles/main.dir/print_array.c.o"
   "/home/eltueto/Desktop/holbertonschool-low_level_programming/0x1B-sorting_algorithms/print_list.c" "/home/eltueto/Desktop/holbertonschool-low_level_programming/0x1B-sorting_algorithms/cmake-build-debug/CMakeFiles/main.dir/print_list.c.o"
   )

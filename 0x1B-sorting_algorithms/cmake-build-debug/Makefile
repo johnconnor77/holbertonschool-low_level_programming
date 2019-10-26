@@ -123,59 +123,59 @@ main/fast:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-0-bubble_sort.o: 0-bubble_sort.c.o
+1-insertion_sort_list.o: 1-insertion_sort_list.c.o
 
-.PHONY : 0-bubble_sort.o
-
-# target to build an object file
-0-bubble_sort.c.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/0-bubble_sort.c.o
-.PHONY : 0-bubble_sort.c.o
-
-0-bubble_sort.i: 0-bubble_sort.c.i
-
-.PHONY : 0-bubble_sort.i
-
-# target to preprocess a source file
-0-bubble_sort.c.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/0-bubble_sort.c.i
-.PHONY : 0-bubble_sort.c.i
-
-0-bubble_sort.s: 0-bubble_sort.c.s
-
-.PHONY : 0-bubble_sort.s
-
-# target to generate assembly for a file
-0-bubble_sort.c.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/0-bubble_sort.c.s
-.PHONY : 0-bubble_sort.c.s
-
-0-main.o: 0-main.c.o
-
-.PHONY : 0-main.o
+.PHONY : 1-insertion_sort_list.o
 
 # target to build an object file
-0-main.c.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/0-main.c.o
-.PHONY : 0-main.c.o
+1-insertion_sort_list.c.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1-insertion_sort_list.c.o
+.PHONY : 1-insertion_sort_list.c.o
 
-0-main.i: 0-main.c.i
+1-insertion_sort_list.i: 1-insertion_sort_list.c.i
 
-.PHONY : 0-main.i
+.PHONY : 1-insertion_sort_list.i
 
 # target to preprocess a source file
-0-main.c.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/0-main.c.i
-.PHONY : 0-main.c.i
+1-insertion_sort_list.c.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1-insertion_sort_list.c.i
+.PHONY : 1-insertion_sort_list.c.i
 
-0-main.s: 0-main.c.s
+1-insertion_sort_list.s: 1-insertion_sort_list.c.s
 
-.PHONY : 0-main.s
+.PHONY : 1-insertion_sort_list.s
 
 # target to generate assembly for a file
-0-main.c.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/0-main.c.s
-.PHONY : 0-main.c.s
+1-insertion_sort_list.c.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1-insertion_sort_list.c.s
+.PHONY : 1-insertion_sort_list.c.s
+
+1-main.o: 1-main.c.o
+
+.PHONY : 1-main.o
+
+# target to build an object file
+1-main.c.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1-main.c.o
+.PHONY : 1-main.c.o
+
+1-main.i: 1-main.c.i
+
+.PHONY : 1-main.i
+
+# target to preprocess a source file
+1-main.c.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1-main.c.i
+.PHONY : 1-main.c.i
+
+1-main.s: 1-main.c.s
+
+.PHONY : 1-main.s
+
+# target to generate assembly for a file
+1-main.c.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1-main.c.s
+.PHONY : 1-main.c.s
 
 print_array.o: print_array.c.o
 
@@ -240,12 +240,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... main"
 	@echo "... edit_cache"
-	@echo "... 0-bubble_sort.o"
-	@echo "... 0-bubble_sort.i"
-	@echo "... 0-bubble_sort.s"
-	@echo "... 0-main.o"
-	@echo "... 0-main.i"
-	@echo "... 0-main.s"
+	@echo "... 1-insertion_sort_list.o"
+	@echo "... 1-insertion_sort_list.i"
+	@echo "... 1-insertion_sort_list.s"
+	@echo "... 1-main.o"
+	@echo "... 1-main.i"
+	@echo "... 1-main.s"
 	@echo "... print_array.o"
 	@echo "... print_array.i"
 	@echo "... print_array.s"

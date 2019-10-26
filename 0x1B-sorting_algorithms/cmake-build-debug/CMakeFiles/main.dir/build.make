@@ -83,46 +83,46 @@ CMakeFiles/main.dir/print_list.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/print_list.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eltueto/Desktop/holbertonschool-low_level_programming/0x1B-sorting_algorithms/print_list.c -o CMakeFiles/main.dir/print_list.c.s
 
-CMakeFiles/main.dir/0-main.c.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/0-main.c.o: ../0-main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eltueto/Desktop/holbertonschool-low_level_programming/0x1B-sorting_algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/main.dir/0-main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/0-main.c.o   -c /home/eltueto/Desktop/holbertonschool-low_level_programming/0x1B-sorting_algorithms/0-main.c
+CMakeFiles/main.dir/1-insertion_sort_list.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/1-insertion_sort_list.c.o: ../1-insertion_sort_list.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eltueto/Desktop/holbertonschool-low_level_programming/0x1B-sorting_algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/main.dir/1-insertion_sort_list.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/1-insertion_sort_list.c.o   -c /home/eltueto/Desktop/holbertonschool-low_level_programming/0x1B-sorting_algorithms/1-insertion_sort_list.c
 
-CMakeFiles/main.dir/0-main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/0-main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eltueto/Desktop/holbertonschool-low_level_programming/0x1B-sorting_algorithms/0-main.c > CMakeFiles/main.dir/0-main.c.i
+CMakeFiles/main.dir/1-insertion_sort_list.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/1-insertion_sort_list.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eltueto/Desktop/holbertonschool-low_level_programming/0x1B-sorting_algorithms/1-insertion_sort_list.c > CMakeFiles/main.dir/1-insertion_sort_list.c.i
 
-CMakeFiles/main.dir/0-main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/0-main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eltueto/Desktop/holbertonschool-low_level_programming/0x1B-sorting_algorithms/0-main.c -o CMakeFiles/main.dir/0-main.c.s
+CMakeFiles/main.dir/1-insertion_sort_list.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/1-insertion_sort_list.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eltueto/Desktop/holbertonschool-low_level_programming/0x1B-sorting_algorithms/1-insertion_sort_list.c -o CMakeFiles/main.dir/1-insertion_sort_list.c.s
 
-CMakeFiles/main.dir/0-bubble_sort.c.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/0-bubble_sort.c.o: ../0-bubble_sort.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eltueto/Desktop/holbertonschool-low_level_programming/0x1B-sorting_algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/main.dir/0-bubble_sort.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/0-bubble_sort.c.o   -c /home/eltueto/Desktop/holbertonschool-low_level_programming/0x1B-sorting_algorithms/0-bubble_sort.c
+CMakeFiles/main.dir/1-main.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/1-main.c.o: ../1-main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eltueto/Desktop/holbertonschool-low_level_programming/0x1B-sorting_algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/main.dir/1-main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/1-main.c.o   -c /home/eltueto/Desktop/holbertonschool-low_level_programming/0x1B-sorting_algorithms/1-main.c
 
-CMakeFiles/main.dir/0-bubble_sort.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/0-bubble_sort.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eltueto/Desktop/holbertonschool-low_level_programming/0x1B-sorting_algorithms/0-bubble_sort.c > CMakeFiles/main.dir/0-bubble_sort.c.i
+CMakeFiles/main.dir/1-main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/1-main.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eltueto/Desktop/holbertonschool-low_level_programming/0x1B-sorting_algorithms/1-main.c > CMakeFiles/main.dir/1-main.c.i
 
-CMakeFiles/main.dir/0-bubble_sort.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/0-bubble_sort.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eltueto/Desktop/holbertonschool-low_level_programming/0x1B-sorting_algorithms/0-bubble_sort.c -o CMakeFiles/main.dir/0-bubble_sort.c.s
+CMakeFiles/main.dir/1-main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/1-main.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eltueto/Desktop/holbertonschool-low_level_programming/0x1B-sorting_algorithms/1-main.c -o CMakeFiles/main.dir/1-main.c.s
 
 # Object files for target main
 main_OBJECTS = \
 "CMakeFiles/main.dir/print_array.c.o" \
 "CMakeFiles/main.dir/print_list.c.o" \
-"CMakeFiles/main.dir/0-main.c.o" \
-"CMakeFiles/main.dir/0-bubble_sort.c.o"
+"CMakeFiles/main.dir/1-insertion_sort_list.c.o" \
+"CMakeFiles/main.dir/1-main.c.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
 main: CMakeFiles/main.dir/print_array.c.o
 main: CMakeFiles/main.dir/print_list.c.o
-main: CMakeFiles/main.dir/0-main.c.o
-main: CMakeFiles/main.dir/0-bubble_sort.c.o
+main: CMakeFiles/main.dir/1-insertion_sort_list.c.o
+main: CMakeFiles/main.dir/1-main.c.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/eltueto/Desktop/holbertonschool-low_level_programming/0x1B-sorting_algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable main"

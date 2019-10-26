@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main.dir/0-bubble_sort.c.o"
-  "CMakeFiles/main.dir/0-main.c.o"
+  "CMakeFiles/main.dir/1-insertion_sort_list.c.o"
+  "CMakeFiles/main.dir/1-main.c.o"
   "CMakeFiles/main.dir/print_array.c.o"
   "CMakeFiles/main.dir/print_list.c.o"
   "main"
