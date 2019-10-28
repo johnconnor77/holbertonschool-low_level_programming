@@ -10,8 +10,9 @@
  * @prev: Pointer to the previous element of the list
  * @next: Pointer to the next element of the list
  */
-typedef struct listint_s {
-	struct listint_sconst int n;
+typedef struct listint_s
+{
+	const int n;
 	struct listint_s *prev;
 	struct listint_s *next;
 
