@@ -11,7 +11,6 @@ void bubble_sort(int *array, size_t size)
 	unsigned int j = 0, i = 0;
 	int aux = 0;
 
-
 	if (size < 2 || !array)
 		return;
 
@@ -31,5 +30,4 @@ void bubble_sort(int *array, size_t size)
 		}
 		i++;
 	}
-
 }
