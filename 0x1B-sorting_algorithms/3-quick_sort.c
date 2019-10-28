@@ -39,7 +39,7 @@ int partition(int *array, int lo, int hi, size_t size)
 			i++;
 		}
 	}
-	if (i != j)
+	if (i != hi)
 	{
 		swap_vals(&array[i], &array[hi]);
 		print_array(array, size);
