@@ -1,4 +1,5 @@
 #include "sort.h"
+
 /**
  * void insertion_sort_list - sorts a list using
  * the insertion algorithm
@@ -6,34 +7,34 @@
  */
 void insertion_sort_list(listint_t **list)
 {
-    listint_t *node;
+	listint_t *node;
 
-    if (!list)
-        return;
-    if ((*list)->next == NULL)
-        return;
+	if (!list)
+		return;
+	if ((*list)->next == NULL)
+		return;
 
-    node = (*list)->next;
+	node = (*list)->next;
 
-    while (node)
-    {
-        while ((node->prev != NULL) && (node->prev->n > node->n))
-        {
-            node->prev->next = node->next;
-            if (node->next)
-                node->next->prev = node->prev;
+	while (node)
+	{
+		while ((node->prev != NULL) && (node->prev->n > node->n))
+		{
+			node->prev->next = node->next;
+			if (node->next)
+				node->next->prev = node->prev;
 
-            node->next = node->prev;
-            node->prev = node->prev->prev;  /* reverse update */
-            node->next->prev = node;
+			node->next = node->prev;
+			node->prev = node->prev->prev;  /* reverse update */
+			node->next->prev = node;
 
-            (node->prev == NULL) ? (*list = node) : (node->prev->next = node);
-            print_list(*list);
-        }
-
-        node = node->next;
-    }
+			(node->prev == NULL) ? (*list = node) : (node->prev->next = node);
+			print_list(*list);
+		}
+		node = node->next;
+	}
 }
+
 
 
 
