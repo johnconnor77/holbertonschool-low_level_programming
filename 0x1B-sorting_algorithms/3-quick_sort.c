@@ -1,6 +1,6 @@
 #include "sort.h"
 /**
- * swap - function that changes values of index into an array
+ * swap_vals - function that changes values of index into an array
  * @ai: value at index i
  * @aj: value at index j
  */
@@ -15,12 +15,11 @@ void swap_vals(int *ai, int *aj)
 /**
  * partition - function that sorts with lomuto partition
  * @array: inlet array for sorting
- * @lo lowest limit
- * @hi upper limit
- * @size length of array
- * @return the integer for partition
+ * @lo: lowest limit
+ * @hi: upper limit
+ * @size: length of array
+ * Return: the integer for partition
  */
-
 int partition(int *array, int lo, int hi, size_t size)
 {
 	int j, i;
@@ -42,17 +41,19 @@ int partition(int *array, int lo, int hi, size_t size)
 	}
 	if (i != j)
 	{
-		swap_vals(&array[i],&array[hi]);
+		swap_vals(&array[i], &array[hi]);
 		print_array(array, size);
 	}
 
-	return(i);
+	return (i);
 }
 /**
  * q_sort - Aux function that sorts with quick sort
  * algorithm in ascending order
- * @array: pointer of the array
- * @size: length of array inlet
+ * @array: list to be sort
+ * @lo: lowest int value
+ * @hi: highest int value
+ * @size: lenght of array
 */
 void q_sort(int *array, int lo, int hi, size_t size)
 {
@@ -62,13 +63,13 @@ void q_sort(int *array, int lo, int hi, size_t size)
 	{
 		p = partition(array, lo, hi, size);
 		q_sort(array, lo, p - 1, size);
-		q_sort(array,p + 1, hi, size);
+		q_sort(array, p + 1, hi, size);
 	}
 }
 /**
  * quick_sort - main inlet for data to sort
  * @array: array to sort
- * @size: lenght of array
+ * @size: length of array
  */
 void quick_sort(int *array, size_t size)
 {
