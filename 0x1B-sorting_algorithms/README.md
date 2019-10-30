@@ -1,5 +1,9 @@
 # 0x1B. C - Sorting algorithms & Big O
 ---
+
+<img align="center" src="https://www.growingwiththeweb.com/images/2014/06/22/preview.png" width="40%"/>
+
+---
 ## Description
 
 This project in the Lower Level Programming series is about:
@@ -17,3 +21,9 @@ File|Task
 2-selection_sort.c |  function that sorts an array of integers in ascending order using the Selection sort algorithm
 3-quick_sort.c | function that sorts an array of integers in ascending order using the Quick sort algorithm
 *-O | Answer to questions about Big O (best, average and worst case )
+/main | Directory with main files
+/cmake-build-debug CMakeLists.txt | Aux directory and .txt for Clion runtime
+
+Authors:
+* **Daniela Gomez** - *Initial Work and Documentación* - [DNeosphere](https://github.com/DNeosphere)
+* **Juan F. Calle** - *Initial Work and Documentación* - [johnconnor77](https://github.com/johnconnor77)
