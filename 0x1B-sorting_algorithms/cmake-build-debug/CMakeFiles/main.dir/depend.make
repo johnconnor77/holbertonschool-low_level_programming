@@ -8,7 +8,6 @@ CMakeFiles/main.dir/1-main.c.o: ../1-main.c
 CMakeFiles/main.dir/1-main.c.o: ../sort.h
 
 CMakeFiles/main.dir/print_array.c.o: ../print_array.c
-CMakeFiles/main.dir/print_array.c.o: ../sort.h
 
 CMakeFiles/main.dir/print_list.c.o: ../print_list.c
 CMakeFiles/main.dir/print_list.c.o: ../sort.h

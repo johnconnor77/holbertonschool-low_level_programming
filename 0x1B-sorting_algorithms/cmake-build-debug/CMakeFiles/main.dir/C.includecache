@@ -9,10 +9,10 @@
 /home/eltueto/Desktop/holbertonschool-low_level_programming/0x1B-sorting_algorithms/1-insertion_sort_list.c
 sort.h
 /home/eltueto/Desktop/holbertonschool-low_level_programming/0x1B-sorting_algorithms/sort.h
-
-/home/eltueto/Desktop/holbertonschool-low_level_programming/0x1B-sorting_algorithms/sort.h
 stdio.h
 -
-stdlib.h
+
+/home/eltueto/Desktop/holbertonschool-low_level_programming/0x1B-sorting_algorithms/sort.h
+stddef.h
 -
 
