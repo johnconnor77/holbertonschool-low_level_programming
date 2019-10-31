@@ -42,14 +42,11 @@ void cocktail_sort_list(listint_t **list)
 	int STATE = UNSORTED;
 
 	node = *list;
-
-	if (!list)
+	if (!list || !(*list) || (*list)->next == NULL)
 		return;
-	if ((*list)->next == NULL)
-		return;
-
 	while (STATE == UNSORTED)
 	{
+		STATE = SORTED;
 		while (node->next != NULL)
 		{
 			left_n = node->n, right_n = node->next->n;
@@ -61,7 +58,6 @@ void cocktail_sort_list(listint_t **list)
 			}
 			else
 			{
-				STATE = SORTED;
 				node = node->next;
 			}
 		}
@@ -76,7 +72,6 @@ void cocktail_sort_list(listint_t **list)
 			}
 			else
 			{
-				STATE = SORTED;
 				node = node->prev;
 			}
 		}
