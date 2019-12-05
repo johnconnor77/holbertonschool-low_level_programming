@@ -43,10 +43,10 @@ RM = /home/eltueto/Downloads/CLion-2019.2.4/clion-2019.2.4/bin/cmake/linux/bin/c
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/eltueto/Documents/0x1D-binary_trees
+CMAKE_SOURCE_DIR = /home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/eltueto/Documents/0x1D-binary_trees/cmake-build-debug
+CMAKE_BINARY_DIR = /home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/bintree.dir/depend.make
@@ -59,88 +59,178 @@ include CMakeFiles/bintree.dir/flags.make
 
 CMakeFiles/bintree.dir/binary_tree_print.c.o: CMakeFiles/bintree.dir/flags.make
 CMakeFiles/bintree.dir/binary_tree_print.c.o: ../binary_tree_print.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eltueto/Documents/0x1D-binary_trees/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/bintree.dir/binary_tree_print.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bintree.dir/binary_tree_print.c.o   -c /home/eltueto/Documents/0x1D-binary_trees/binary_tree_print.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/bintree.dir/binary_tree_print.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bintree.dir/binary_tree_print.c.o   -c /home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/binary_tree_print.c
 
 CMakeFiles/bintree.dir/binary_tree_print.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bintree.dir/binary_tree_print.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eltueto/Documents/0x1D-binary_trees/binary_tree_print.c > CMakeFiles/bintree.dir/binary_tree_print.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/binary_tree_print.c > CMakeFiles/bintree.dir/binary_tree_print.c.i
 
 CMakeFiles/bintree.dir/binary_tree_print.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bintree.dir/binary_tree_print.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eltueto/Documents/0x1D-binary_trees/binary_tree_print.c -o CMakeFiles/bintree.dir/binary_tree_print.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/binary_tree_print.c -o CMakeFiles/bintree.dir/binary_tree_print.c.s
 
 CMakeFiles/bintree.dir/0-binary_tree_node.c.o: CMakeFiles/bintree.dir/flags.make
 CMakeFiles/bintree.dir/0-binary_tree_node.c.o: ../0-binary_tree_node.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eltueto/Documents/0x1D-binary_trees/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/bintree.dir/0-binary_tree_node.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bintree.dir/0-binary_tree_node.c.o   -c /home/eltueto/Documents/0x1D-binary_trees/0-binary_tree_node.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/bintree.dir/0-binary_tree_node.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bintree.dir/0-binary_tree_node.c.o   -c /home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/0-binary_tree_node.c
 
 CMakeFiles/bintree.dir/0-binary_tree_node.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bintree.dir/0-binary_tree_node.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eltueto/Documents/0x1D-binary_trees/0-binary_tree_node.c > CMakeFiles/bintree.dir/0-binary_tree_node.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/0-binary_tree_node.c > CMakeFiles/bintree.dir/0-binary_tree_node.c.i
 
 CMakeFiles/bintree.dir/0-binary_tree_node.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bintree.dir/0-binary_tree_node.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eltueto/Documents/0x1D-binary_trees/0-binary_tree_node.c -o CMakeFiles/bintree.dir/0-binary_tree_node.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/0-binary_tree_node.c -o CMakeFiles/bintree.dir/0-binary_tree_node.c.s
+
+CMakeFiles/bintree.dir/1-binary_tree_insert_left.c.o: CMakeFiles/bintree.dir/flags.make
+CMakeFiles/bintree.dir/1-binary_tree_insert_left.c.o: ../1-binary_tree_insert_left.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/bintree.dir/1-binary_tree_insert_left.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bintree.dir/1-binary_tree_insert_left.c.o   -c /home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/1-binary_tree_insert_left.c
+
+CMakeFiles/bintree.dir/1-binary_tree_insert_left.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bintree.dir/1-binary_tree_insert_left.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/1-binary_tree_insert_left.c > CMakeFiles/bintree.dir/1-binary_tree_insert_left.c.i
+
+CMakeFiles/bintree.dir/1-binary_tree_insert_left.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bintree.dir/1-binary_tree_insert_left.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/1-binary_tree_insert_left.c -o CMakeFiles/bintree.dir/1-binary_tree_insert_left.c.s
 
 CMakeFiles/bintree.dir/2-binary_tree_insert_right.c.o: CMakeFiles/bintree.dir/flags.make
 CMakeFiles/bintree.dir/2-binary_tree_insert_right.c.o: ../2-binary_tree_insert_right.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eltueto/Documents/0x1D-binary_trees/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/bintree.dir/2-binary_tree_insert_right.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bintree.dir/2-binary_tree_insert_right.c.o   -c /home/eltueto/Documents/0x1D-binary_trees/2-binary_tree_insert_right.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/bintree.dir/2-binary_tree_insert_right.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bintree.dir/2-binary_tree_insert_right.c.o   -c /home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/2-binary_tree_insert_right.c
 
 CMakeFiles/bintree.dir/2-binary_tree_insert_right.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bintree.dir/2-binary_tree_insert_right.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eltueto/Documents/0x1D-binary_trees/2-binary_tree_insert_right.c > CMakeFiles/bintree.dir/2-binary_tree_insert_right.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/2-binary_tree_insert_right.c > CMakeFiles/bintree.dir/2-binary_tree_insert_right.c.i
 
 CMakeFiles/bintree.dir/2-binary_tree_insert_right.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bintree.dir/2-binary_tree_insert_right.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eltueto/Documents/0x1D-binary_trees/2-binary_tree_insert_right.c -o CMakeFiles/bintree.dir/2-binary_tree_insert_right.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/2-binary_tree_insert_right.c -o CMakeFiles/bintree.dir/2-binary_tree_insert_right.c.s
 
 CMakeFiles/bintree.dir/3-binary_tree_delete.c.o: CMakeFiles/bintree.dir/flags.make
 CMakeFiles/bintree.dir/3-binary_tree_delete.c.o: ../3-binary_tree_delete.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eltueto/Documents/0x1D-binary_trees/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/bintree.dir/3-binary_tree_delete.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bintree.dir/3-binary_tree_delete.c.o   -c /home/eltueto/Documents/0x1D-binary_trees/3-binary_tree_delete.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/bintree.dir/3-binary_tree_delete.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bintree.dir/3-binary_tree_delete.c.o   -c /home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/3-binary_tree_delete.c
 
 CMakeFiles/bintree.dir/3-binary_tree_delete.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bintree.dir/3-binary_tree_delete.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eltueto/Documents/0x1D-binary_trees/3-binary_tree_delete.c > CMakeFiles/bintree.dir/3-binary_tree_delete.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/3-binary_tree_delete.c > CMakeFiles/bintree.dir/3-binary_tree_delete.c.i
 
 CMakeFiles/bintree.dir/3-binary_tree_delete.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bintree.dir/3-binary_tree_delete.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eltueto/Documents/0x1D-binary_trees/3-binary_tree_delete.c -o CMakeFiles/bintree.dir/3-binary_tree_delete.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/3-binary_tree_delete.c -o CMakeFiles/bintree.dir/3-binary_tree_delete.c.s
 
-CMakeFiles/bintree.dir/3-main.c.o: CMakeFiles/bintree.dir/flags.make
-CMakeFiles/bintree.dir/3-main.c.o: ../3-main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eltueto/Documents/0x1D-binary_trees/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/bintree.dir/3-main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bintree.dir/3-main.c.o   -c /home/eltueto/Documents/0x1D-binary_trees/3-main.c
+CMakeFiles/bintree.dir/10-binary_tree_depth.c.o: CMakeFiles/bintree.dir/flags.make
+CMakeFiles/bintree.dir/10-binary_tree_depth.c.o: ../10-binary_tree_depth.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/bintree.dir/10-binary_tree_depth.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bintree.dir/10-binary_tree_depth.c.o   -c /home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/10-binary_tree_depth.c
 
-CMakeFiles/bintree.dir/3-main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bintree.dir/3-main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eltueto/Documents/0x1D-binary_trees/3-main.c > CMakeFiles/bintree.dir/3-main.c.i
+CMakeFiles/bintree.dir/10-binary_tree_depth.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bintree.dir/10-binary_tree_depth.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/10-binary_tree_depth.c > CMakeFiles/bintree.dir/10-binary_tree_depth.c.i
 
-CMakeFiles/bintree.dir/3-main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bintree.dir/3-main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eltueto/Documents/0x1D-binary_trees/3-main.c -o CMakeFiles/bintree.dir/3-main.c.s
+CMakeFiles/bintree.dir/10-binary_tree_depth.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bintree.dir/10-binary_tree_depth.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/10-binary_tree_depth.c -o CMakeFiles/bintree.dir/10-binary_tree_depth.c.s
+
+CMakeFiles/bintree.dir/11-binary_tree_size.c.o: CMakeFiles/bintree.dir/flags.make
+CMakeFiles/bintree.dir/11-binary_tree_size.c.o: ../11-binary_tree_size.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/bintree.dir/11-binary_tree_size.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bintree.dir/11-binary_tree_size.c.o   -c /home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/11-binary_tree_size.c
+
+CMakeFiles/bintree.dir/11-binary_tree_size.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bintree.dir/11-binary_tree_size.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/11-binary_tree_size.c > CMakeFiles/bintree.dir/11-binary_tree_size.c.i
+
+CMakeFiles/bintree.dir/11-binary_tree_size.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bintree.dir/11-binary_tree_size.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/11-binary_tree_size.c -o CMakeFiles/bintree.dir/11-binary_tree_size.c.s
+
+CMakeFiles/bintree.dir/12-binary_tree_leaves.c.o: CMakeFiles/bintree.dir/flags.make
+CMakeFiles/bintree.dir/12-binary_tree_leaves.c.o: ../12-binary_tree_leaves.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/bintree.dir/12-binary_tree_leaves.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bintree.dir/12-binary_tree_leaves.c.o   -c /home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/12-binary_tree_leaves.c
+
+CMakeFiles/bintree.dir/12-binary_tree_leaves.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bintree.dir/12-binary_tree_leaves.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/12-binary_tree_leaves.c > CMakeFiles/bintree.dir/12-binary_tree_leaves.c.i
+
+CMakeFiles/bintree.dir/12-binary_tree_leaves.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bintree.dir/12-binary_tree_leaves.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/12-binary_tree_leaves.c -o CMakeFiles/bintree.dir/12-binary_tree_leaves.c.s
+
+CMakeFiles/bintree.dir/13-binary_tree_nodes.c.o: CMakeFiles/bintree.dir/flags.make
+CMakeFiles/bintree.dir/13-binary_tree_nodes.c.o: ../13-binary_tree_nodes.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/bintree.dir/13-binary_tree_nodes.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bintree.dir/13-binary_tree_nodes.c.o   -c /home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/13-binary_tree_nodes.c
+
+CMakeFiles/bintree.dir/13-binary_tree_nodes.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bintree.dir/13-binary_tree_nodes.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/13-binary_tree_nodes.c > CMakeFiles/bintree.dir/13-binary_tree_nodes.c.i
+
+CMakeFiles/bintree.dir/13-binary_tree_nodes.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bintree.dir/13-binary_tree_nodes.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/13-binary_tree_nodes.c -o CMakeFiles/bintree.dir/13-binary_tree_nodes.c.s
+
+CMakeFiles/bintree.dir/14-main.c.o: CMakeFiles/bintree.dir/flags.make
+CMakeFiles/bintree.dir/14-main.c.o: ../14-main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/bintree.dir/14-main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bintree.dir/14-main.c.o   -c /home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/14-main.c
+
+CMakeFiles/bintree.dir/14-main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bintree.dir/14-main.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/14-main.c > CMakeFiles/bintree.dir/14-main.c.i
+
+CMakeFiles/bintree.dir/14-main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bintree.dir/14-main.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/14-main.c -o CMakeFiles/bintree.dir/14-main.c.s
+
+CMakeFiles/bintree.dir/14-binary_tree_balance.c.o: CMakeFiles/bintree.dir/flags.make
+CMakeFiles/bintree.dir/14-binary_tree_balance.c.o: ../14-binary_tree_balance.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/bintree.dir/14-binary_tree_balance.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bintree.dir/14-binary_tree_balance.c.o   -c /home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/14-binary_tree_balance.c
+
+CMakeFiles/bintree.dir/14-binary_tree_balance.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bintree.dir/14-binary_tree_balance.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/14-binary_tree_balance.c > CMakeFiles/bintree.dir/14-binary_tree_balance.c.i
+
+CMakeFiles/bintree.dir/14-binary_tree_balance.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bintree.dir/14-binary_tree_balance.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/14-binary_tree_balance.c -o CMakeFiles/bintree.dir/14-binary_tree_balance.c.s
 
 # Object files for target bintree
 bintree_OBJECTS = \
 "CMakeFiles/bintree.dir/binary_tree_print.c.o" \
 "CMakeFiles/bintree.dir/0-binary_tree_node.c.o" \
+"CMakeFiles/bintree.dir/1-binary_tree_insert_left.c.o" \
 "CMakeFiles/bintree.dir/2-binary_tree_insert_right.c.o" \
 "CMakeFiles/bintree.dir/3-binary_tree_delete.c.o" \
-"CMakeFiles/bintree.dir/3-main.c.o"
+"CMakeFiles/bintree.dir/10-binary_tree_depth.c.o" \
+"CMakeFiles/bintree.dir/11-binary_tree_size.c.o" \
+"CMakeFiles/bintree.dir/12-binary_tree_leaves.c.o" \
+"CMakeFiles/bintree.dir/13-binary_tree_nodes.c.o" \
+"CMakeFiles/bintree.dir/14-main.c.o" \
+"CMakeFiles/bintree.dir/14-binary_tree_balance.c.o"
 
 # External object files for target bintree
 bintree_EXTERNAL_OBJECTS =
 
 bintree: CMakeFiles/bintree.dir/binary_tree_print.c.o
 bintree: CMakeFiles/bintree.dir/0-binary_tree_node.c.o
+bintree: CMakeFiles/bintree.dir/1-binary_tree_insert_left.c.o
 bintree: CMakeFiles/bintree.dir/2-binary_tree_insert_right.c.o
 bintree: CMakeFiles/bintree.dir/3-binary_tree_delete.c.o
-bintree: CMakeFiles/bintree.dir/3-main.c.o
+bintree: CMakeFiles/bintree.dir/10-binary_tree_depth.c.o
+bintree: CMakeFiles/bintree.dir/11-binary_tree_size.c.o
+bintree: CMakeFiles/bintree.dir/12-binary_tree_leaves.c.o
+bintree: CMakeFiles/bintree.dir/13-binary_tree_nodes.c.o
+bintree: CMakeFiles/bintree.dir/14-main.c.o
+bintree: CMakeFiles/bintree.dir/14-binary_tree_balance.c.o
 bintree: CMakeFiles/bintree.dir/build.make
 bintree: CMakeFiles/bintree.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/eltueto/Documents/0x1D-binary_trees/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable bintree"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking C executable bintree"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bintree.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -153,6 +243,6 @@ CMakeFiles/bintree.dir/clean:
 .PHONY : CMakeFiles/bintree.dir/clean
 
 CMakeFiles/bintree.dir/depend:
-	cd /home/eltueto/Documents/0x1D-binary_trees/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eltueto/Documents/0x1D-binary_trees /home/eltueto/Documents/0x1D-binary_trees /home/eltueto/Documents/0x1D-binary_trees/cmake-build-debug /home/eltueto/Documents/0x1D-binary_trees/cmake-build-debug /home/eltueto/Documents/0x1D-binary_trees/cmake-build-debug/CMakeFiles/bintree.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees /home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees /home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/cmake-build-debug /home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/cmake-build-debug /home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/cmake-build-debug/CMakeFiles/bintree.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/bintree.dir/depend
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/eltueto/Documents/0x1D-binary_trees
+# Install script for directory: /home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/eltueto/Documents/0x1D-binary_trees/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
