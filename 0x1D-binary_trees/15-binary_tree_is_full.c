@@ -27,12 +27,10 @@ int binary_tree_is_full(const binary_tree_t *tree)
 	left_nodes = binary_tree_nodes(tree->left);
 	right_nodes = binary_tree_nodes(tree->right);
 
-	left_nodes += 1;
-	right_nodes += 1;
-
-
 	nodes_subtrees = left_nodes + right_nodes;
 
-
 	return ((nodes_subtrees % 2 == 0) ? 1 : 0);
+
 }
+
+
