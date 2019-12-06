@@ -6,8 +6,8 @@
  */
 size_t binary_tree_nodes(const binary_tree_t *tree)
 {
-    return ((!tree) ? 0 :
-            (1 + binary_tree_nodes(tree->right) + binary_tree_nodes(tree->left)));
+	return ((!tree) ? 0 :
+		(1 + binary_tree_nodes(tree->right) + binary_tree_nodes(tree->left)));
 }
 /**
  * binary_tree_is_perfect - function that checks
@@ -17,13 +17,13 @@ size_t binary_tree_nodes(const binary_tree_t *tree)
  */
 int binary_tree_is_perfect(const binary_tree_t *tree)
 {
-    int left_nodes = 0, right_nodes = 0;
+	int left_nodes = 0, right_nodes = 0;
 
-    if (!tree)
-        return (0);
+	if (!tree)
+		return (0);
 
-    left_nodes = binary_tree_nodes(tree->left);
-    right_nodes = binary_tree_nodes(tree->right);
+	left_nodes = binary_tree_nodes(tree->left);
+	right_nodes = binary_tree_nodes(tree->right);
 
-    return ((left_nodes == right_nodes) ? 1 : 0);
+	return ((left_nodes == right_nodes) ? 1 : 0);
 }
