@@ -7,29 +7,14 @@ CMakeFiles/bintree.dir/0-binary_tree_node.c.o: ../binary_trees.h
 CMakeFiles/bintree.dir/1-binary_tree_insert_left.c.o: ../1-binary_tree_insert_left.c
 CMakeFiles/bintree.dir/1-binary_tree_insert_left.c.o: ../binary_trees.h
 
-CMakeFiles/bintree.dir/10-binary_tree_depth.c.o: ../10-binary_tree_depth.c
-CMakeFiles/bintree.dir/10-binary_tree_depth.c.o: ../binary_trees.h
+CMakeFiles/bintree.dir/15-binary_tree_is_full.c.o: ../15-binary_tree_is_full.c
+CMakeFiles/bintree.dir/15-binary_tree_is_full.c.o: ../binary_trees.h
 
-CMakeFiles/bintree.dir/11-binary_tree_size.c.o: ../11-binary_tree_size.c
-CMakeFiles/bintree.dir/11-binary_tree_size.c.o: ../binary_trees.h
-
-CMakeFiles/bintree.dir/12-binary_tree_leaves.c.o: ../12-binary_tree_leaves.c
-CMakeFiles/bintree.dir/12-binary_tree_leaves.c.o: ../binary_trees.h
-
-CMakeFiles/bintree.dir/13-binary_tree_nodes.c.o: ../13-binary_tree_nodes.c
-CMakeFiles/bintree.dir/13-binary_tree_nodes.c.o: ../binary_trees.h
-
-CMakeFiles/bintree.dir/14-binary_tree_balance.c.o: ../14-binary_tree_balance.c
-CMakeFiles/bintree.dir/14-binary_tree_balance.c.o: ../binary_trees.h
-
-CMakeFiles/bintree.dir/14-main.c.o: ../14-main.c
-CMakeFiles/bintree.dir/14-main.c.o: ../binary_trees.h
+CMakeFiles/bintree.dir/15-main.c.o: ../15-main.c
+CMakeFiles/bintree.dir/15-main.c.o: ../binary_trees.h
 
 CMakeFiles/bintree.dir/2-binary_tree_insert_right.c.o: ../2-binary_tree_insert_right.c
 CMakeFiles/bintree.dir/2-binary_tree_insert_right.c.o: ../binary_trees.h
-
-CMakeFiles/bintree.dir/3-binary_tree_delete.c.o: ../3-binary_tree_delete.c
-CMakeFiles/bintree.dir/3-binary_tree_delete.c.o: ../binary_trees.h
 
 CMakeFiles/bintree.dir/binary_tree_print.c.o: ../binary_tree_print.c
 CMakeFiles/bintree.dir/binary_tree_print.c.o: ../binary_trees.h

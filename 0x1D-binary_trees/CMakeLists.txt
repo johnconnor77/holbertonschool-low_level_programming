@@ -8,9 +8,4 @@ add_executable(bintree
         0-binary_tree_node.c
         1-binary_tree_insert_left.c
         2-binary_tree_insert_right.c
-        3-binary_tree_delete.c
-        10-binary_tree_depth.c
-        11-binary_tree_size.c
-        12-binary_tree_leaves.c
-        13-binary_tree_nodes.c
-        14-main.c 14-binary_tree_balance.c)
+        15-binary_tree_is_full.c 15-main.c)

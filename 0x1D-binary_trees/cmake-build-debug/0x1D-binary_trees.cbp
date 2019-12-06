@@ -84,28 +84,13 @@
 		<Unit filename="/home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/1-binary_tree_insert_left.c">
 			<Option target="bintree"/>
 		</Unit>
-		<Unit filename="/home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/10-binary_tree_depth.c">
+		<Unit filename="/home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/15-binary_tree_is_full.c">
 			<Option target="bintree"/>
 		</Unit>
-		<Unit filename="/home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/11-binary_tree_size.c">
-			<Option target="bintree"/>
-		</Unit>
-		<Unit filename="/home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/12-binary_tree_leaves.c">
-			<Option target="bintree"/>
-		</Unit>
-		<Unit filename="/home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/13-binary_tree_nodes.c">
-			<Option target="bintree"/>
-		</Unit>
-		<Unit filename="/home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/14-binary_tree_balance.c">
-			<Option target="bintree"/>
-		</Unit>
-		<Unit filename="/home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/14-main.c">
+		<Unit filename="/home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/15-main.c">
 			<Option target="bintree"/>
 		</Unit>
 		<Unit filename="/home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/2-binary_tree_insert_right.c">
-			<Option target="bintree"/>
-		</Unit>
-		<Unit filename="/home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/3-binary_tree_delete.c">
 			<Option target="bintree"/>
 		</Unit>
 		<Unit filename="/home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/binary_tree_print.c">

@@ -74,12 +74,12 @@ preinstall:
 CMakeFiles/bintree.dir/all:
 	$(MAKE) -f CMakeFiles/bintree.dir/build.make CMakeFiles/bintree.dir/depend
 	$(MAKE) -f CMakeFiles/bintree.dir/build.make CMakeFiles/bintree.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target bintree"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target bintree"
 .PHONY : CMakeFiles/bintree.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/bintree.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/cmake-build-debug/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/cmake-build-debug/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/bintree.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/eltueto/Documents/holbertonschool-low_level_programming/0x1D-binary_trees/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/bintree.dir/rule

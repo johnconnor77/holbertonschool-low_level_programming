@@ -177,167 +177,59 @@ bintree/fast:
 	$(MAKE) -f CMakeFiles/bintree.dir/build.make CMakeFiles/bintree.dir/1-binary_tree_insert_left.c.s
 .PHONY : 1-binary_tree_insert_left.c.s
 
-10-binary_tree_depth.o: 10-binary_tree_depth.c.o
+15-binary_tree_is_full.o: 15-binary_tree_is_full.c.o
 
-.PHONY : 10-binary_tree_depth.o
-
-# target to build an object file
-10-binary_tree_depth.c.o:
-	$(MAKE) -f CMakeFiles/bintree.dir/build.make CMakeFiles/bintree.dir/10-binary_tree_depth.c.o
-.PHONY : 10-binary_tree_depth.c.o
-
-10-binary_tree_depth.i: 10-binary_tree_depth.c.i
-
-.PHONY : 10-binary_tree_depth.i
-
-# target to preprocess a source file
-10-binary_tree_depth.c.i:
-	$(MAKE) -f CMakeFiles/bintree.dir/build.make CMakeFiles/bintree.dir/10-binary_tree_depth.c.i
-.PHONY : 10-binary_tree_depth.c.i
-
-10-binary_tree_depth.s: 10-binary_tree_depth.c.s
-
-.PHONY : 10-binary_tree_depth.s
-
-# target to generate assembly for a file
-10-binary_tree_depth.c.s:
-	$(MAKE) -f CMakeFiles/bintree.dir/build.make CMakeFiles/bintree.dir/10-binary_tree_depth.c.s
-.PHONY : 10-binary_tree_depth.c.s
-
-11-binary_tree_size.o: 11-binary_tree_size.c.o
-
-.PHONY : 11-binary_tree_size.o
+.PHONY : 15-binary_tree_is_full.o
 
 # target to build an object file
-11-binary_tree_size.c.o:
-	$(MAKE) -f CMakeFiles/bintree.dir/build.make CMakeFiles/bintree.dir/11-binary_tree_size.c.o
-.PHONY : 11-binary_tree_size.c.o
+15-binary_tree_is_full.c.o:
+	$(MAKE) -f CMakeFiles/bintree.dir/build.make CMakeFiles/bintree.dir/15-binary_tree_is_full.c.o
+.PHONY : 15-binary_tree_is_full.c.o
 
-11-binary_tree_size.i: 11-binary_tree_size.c.i
+15-binary_tree_is_full.i: 15-binary_tree_is_full.c.i
 
-.PHONY : 11-binary_tree_size.i
+.PHONY : 15-binary_tree_is_full.i
 
 # target to preprocess a source file
-11-binary_tree_size.c.i:
-	$(MAKE) -f CMakeFiles/bintree.dir/build.make CMakeFiles/bintree.dir/11-binary_tree_size.c.i
-.PHONY : 11-binary_tree_size.c.i
+15-binary_tree_is_full.c.i:
+	$(MAKE) -f CMakeFiles/bintree.dir/build.make CMakeFiles/bintree.dir/15-binary_tree_is_full.c.i
+.PHONY : 15-binary_tree_is_full.c.i
 
-11-binary_tree_size.s: 11-binary_tree_size.c.s
+15-binary_tree_is_full.s: 15-binary_tree_is_full.c.s
 
-.PHONY : 11-binary_tree_size.s
+.PHONY : 15-binary_tree_is_full.s
 
 # target to generate assembly for a file
-11-binary_tree_size.c.s:
-	$(MAKE) -f CMakeFiles/bintree.dir/build.make CMakeFiles/bintree.dir/11-binary_tree_size.c.s
-.PHONY : 11-binary_tree_size.c.s
+15-binary_tree_is_full.c.s:
+	$(MAKE) -f CMakeFiles/bintree.dir/build.make CMakeFiles/bintree.dir/15-binary_tree_is_full.c.s
+.PHONY : 15-binary_tree_is_full.c.s
 
-12-binary_tree_leaves.o: 12-binary_tree_leaves.c.o
+15-main.o: 15-main.c.o
 
-.PHONY : 12-binary_tree_leaves.o
+.PHONY : 15-main.o
 
 # target to build an object file
-12-binary_tree_leaves.c.o:
-	$(MAKE) -f CMakeFiles/bintree.dir/build.make CMakeFiles/bintree.dir/12-binary_tree_leaves.c.o
-.PHONY : 12-binary_tree_leaves.c.o
+15-main.c.o:
+	$(MAKE) -f CMakeFiles/bintree.dir/build.make CMakeFiles/bintree.dir/15-main.c.o
+.PHONY : 15-main.c.o
 
-12-binary_tree_leaves.i: 12-binary_tree_leaves.c.i
+15-main.i: 15-main.c.i
 
-.PHONY : 12-binary_tree_leaves.i
-
-# target to preprocess a source file
-12-binary_tree_leaves.c.i:
-	$(MAKE) -f CMakeFiles/bintree.dir/build.make CMakeFiles/bintree.dir/12-binary_tree_leaves.c.i
-.PHONY : 12-binary_tree_leaves.c.i
-
-12-binary_tree_leaves.s: 12-binary_tree_leaves.c.s
-
-.PHONY : 12-binary_tree_leaves.s
-
-# target to generate assembly for a file
-12-binary_tree_leaves.c.s:
-	$(MAKE) -f CMakeFiles/bintree.dir/build.make CMakeFiles/bintree.dir/12-binary_tree_leaves.c.s
-.PHONY : 12-binary_tree_leaves.c.s
-
-13-binary_tree_nodes.o: 13-binary_tree_nodes.c.o
-
-.PHONY : 13-binary_tree_nodes.o
-
-# target to build an object file
-13-binary_tree_nodes.c.o:
-	$(MAKE) -f CMakeFiles/bintree.dir/build.make CMakeFiles/bintree.dir/13-binary_tree_nodes.c.o
-.PHONY : 13-binary_tree_nodes.c.o
-
-13-binary_tree_nodes.i: 13-binary_tree_nodes.c.i
-
-.PHONY : 13-binary_tree_nodes.i
+.PHONY : 15-main.i
 
 # target to preprocess a source file
-13-binary_tree_nodes.c.i:
-	$(MAKE) -f CMakeFiles/bintree.dir/build.make CMakeFiles/bintree.dir/13-binary_tree_nodes.c.i
-.PHONY : 13-binary_tree_nodes.c.i
+15-main.c.i:
+	$(MAKE) -f CMakeFiles/bintree.dir/build.make CMakeFiles/bintree.dir/15-main.c.i
+.PHONY : 15-main.c.i
 
-13-binary_tree_nodes.s: 13-binary_tree_nodes.c.s
+15-main.s: 15-main.c.s
 
-.PHONY : 13-binary_tree_nodes.s
-
-# target to generate assembly for a file
-13-binary_tree_nodes.c.s:
-	$(MAKE) -f CMakeFiles/bintree.dir/build.make CMakeFiles/bintree.dir/13-binary_tree_nodes.c.s
-.PHONY : 13-binary_tree_nodes.c.s
-
-14-binary_tree_balance.o: 14-binary_tree_balance.c.o
-
-.PHONY : 14-binary_tree_balance.o
-
-# target to build an object file
-14-binary_tree_balance.c.o:
-	$(MAKE) -f CMakeFiles/bintree.dir/build.make CMakeFiles/bintree.dir/14-binary_tree_balance.c.o
-.PHONY : 14-binary_tree_balance.c.o
-
-14-binary_tree_balance.i: 14-binary_tree_balance.c.i
-
-.PHONY : 14-binary_tree_balance.i
-
-# target to preprocess a source file
-14-binary_tree_balance.c.i:
-	$(MAKE) -f CMakeFiles/bintree.dir/build.make CMakeFiles/bintree.dir/14-binary_tree_balance.c.i
-.PHONY : 14-binary_tree_balance.c.i
-
-14-binary_tree_balance.s: 14-binary_tree_balance.c.s
-
-.PHONY : 14-binary_tree_balance.s
+.PHONY : 15-main.s
 
 # target to generate assembly for a file
-14-binary_tree_balance.c.s:
-	$(MAKE) -f CMakeFiles/bintree.dir/build.make CMakeFiles/bintree.dir/14-binary_tree_balance.c.s
-.PHONY : 14-binary_tree_balance.c.s
-
-14-main.o: 14-main.c.o
-
-.PHONY : 14-main.o
-
-# target to build an object file
-14-main.c.o:
-	$(MAKE) -f CMakeFiles/bintree.dir/build.make CMakeFiles/bintree.dir/14-main.c.o
-.PHONY : 14-main.c.o
-
-14-main.i: 14-main.c.i
-
-.PHONY : 14-main.i
-
-# target to preprocess a source file
-14-main.c.i:
-	$(MAKE) -f CMakeFiles/bintree.dir/build.make CMakeFiles/bintree.dir/14-main.c.i
-.PHONY : 14-main.c.i
-
-14-main.s: 14-main.c.s
-
-.PHONY : 14-main.s
-
-# target to generate assembly for a file
-14-main.c.s:
-	$(MAKE) -f CMakeFiles/bintree.dir/build.make CMakeFiles/bintree.dir/14-main.c.s
-.PHONY : 14-main.c.s
+15-main.c.s:
+	$(MAKE) -f CMakeFiles/bintree.dir/build.make CMakeFiles/bintree.dir/15-main.c.s
+.PHONY : 15-main.c.s
 
 2-binary_tree_insert_right.o: 2-binary_tree_insert_right.c.o
 
@@ -365,33 +257,6 @@ bintree/fast:
 2-binary_tree_insert_right.c.s:
 	$(MAKE) -f CMakeFiles/bintree.dir/build.make CMakeFiles/bintree.dir/2-binary_tree_insert_right.c.s
 .PHONY : 2-binary_tree_insert_right.c.s
-
-3-binary_tree_delete.o: 3-binary_tree_delete.c.o
-
-.PHONY : 3-binary_tree_delete.o
-
-# target to build an object file
-3-binary_tree_delete.c.o:
-	$(MAKE) -f CMakeFiles/bintree.dir/build.make CMakeFiles/bintree.dir/3-binary_tree_delete.c.o
-.PHONY : 3-binary_tree_delete.c.o
-
-3-binary_tree_delete.i: 3-binary_tree_delete.c.i
-
-.PHONY : 3-binary_tree_delete.i
-
-# target to preprocess a source file
-3-binary_tree_delete.c.i:
-	$(MAKE) -f CMakeFiles/bintree.dir/build.make CMakeFiles/bintree.dir/3-binary_tree_delete.c.i
-.PHONY : 3-binary_tree_delete.c.i
-
-3-binary_tree_delete.s: 3-binary_tree_delete.c.s
-
-.PHONY : 3-binary_tree_delete.s
-
-# target to generate assembly for a file
-3-binary_tree_delete.c.s:
-	$(MAKE) -f CMakeFiles/bintree.dir/build.make CMakeFiles/bintree.dir/3-binary_tree_delete.c.s
-.PHONY : 3-binary_tree_delete.c.s
 
 binary_tree_print.o: binary_tree_print.c.o
 
@@ -435,30 +300,15 @@ help:
 	@echo "... 1-binary_tree_insert_left.o"
 	@echo "... 1-binary_tree_insert_left.i"
 	@echo "... 1-binary_tree_insert_left.s"
-	@echo "... 10-binary_tree_depth.o"
-	@echo "... 10-binary_tree_depth.i"
-	@echo "... 10-binary_tree_depth.s"
-	@echo "... 11-binary_tree_size.o"
-	@echo "... 11-binary_tree_size.i"
-	@echo "... 11-binary_tree_size.s"
-	@echo "... 12-binary_tree_leaves.o"
-	@echo "... 12-binary_tree_leaves.i"
-	@echo "... 12-binary_tree_leaves.s"
-	@echo "... 13-binary_tree_nodes.o"
-	@echo "... 13-binary_tree_nodes.i"
-	@echo "... 13-binary_tree_nodes.s"
-	@echo "... 14-binary_tree_balance.o"
-	@echo "... 14-binary_tree_balance.i"
-	@echo "... 14-binary_tree_balance.s"
-	@echo "... 14-main.o"
-	@echo "... 14-main.i"
-	@echo "... 14-main.s"
+	@echo "... 15-binary_tree_is_full.o"
+	@echo "... 15-binary_tree_is_full.i"
+	@echo "... 15-binary_tree_is_full.s"
+	@echo "... 15-main.o"
+	@echo "... 15-main.i"
+	@echo "... 15-main.s"
 	@echo "... 2-binary_tree_insert_right.o"
 	@echo "... 2-binary_tree_insert_right.i"
 	@echo "... 2-binary_tree_insert_right.s"
-	@echo "... 3-binary_tree_delete.o"
-	@echo "... 3-binary_tree_delete.i"
-	@echo "... 3-binary_tree_delete.s"
 	@echo "... binary_tree_print.o"
 	@echo "... binary_tree_print.i"
 	@echo "... binary_tree_print.s"
