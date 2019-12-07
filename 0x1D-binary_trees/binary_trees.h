@@ -56,5 +56,7 @@ binary_tree_t *binary_tree_uncle(binary_tree_t *node);
 binary_tree_t *binary_trees_ancestor(const binary_tree_t *first, const binary_tree_t *second);
 void level_printer(const binary_tree_t *tree, void (*func)(int), size_t level);
 void binary_tree_levelorder(const binary_tree_t *tree, void (*func)(int));
+int binary_tree_is_complete(const binary_tree_t *tree);
+int isbtcomplete(const binary_tree_t *tree, size_t index, size_t total_nodes);
 
 #endif /* HOLBERTONSCHOOL_LOW_LEVEL_PROGRAMMING_BINARY_TREES_H */
