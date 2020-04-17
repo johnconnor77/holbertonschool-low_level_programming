@@ -1,5 +1,4 @@
 #include "search_algos.h"
-#include <math.h>
 /**
  * print_array - Prints an array of integers
  *
@@ -44,7 +43,7 @@ int binary_search(int *array, size_t size, int value)
 
 	while (low <= high)
 	{
-		mid = floor((high + low) / 2);
+		mid = (high + low) / 2;
 
 		print_array(array, low, high);
 		if (array[mid] == value)
