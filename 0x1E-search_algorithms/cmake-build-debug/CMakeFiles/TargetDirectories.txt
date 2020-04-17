@@ -1,0 +1,3 @@
+/home/eltueto/Documents/Holberton/holbertonschool-low_level_programming/0x1E-search_algorithms/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/eltueto/Documents/Holberton/holbertonschool-low_level_programming/0x1E-search_algorithms/cmake-build-debug/CMakeFiles/0x1E_search_algorithms.dir
+/home/eltueto/Documents/Holberton/holbertonschool-low_level_programming/0x1E-search_algorithms/cmake-build-debug/CMakeFiles/edit_cache.dir

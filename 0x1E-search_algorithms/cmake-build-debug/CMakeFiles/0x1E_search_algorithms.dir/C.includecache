@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/eltueto/Documents/Holberton/holbertonschool-low_level_programming/0x1E-search_algorithms/0-linear.c
+search_algos.h
+/home/eltueto/Documents/Holberton/holbertonschool-low_level_programming/0x1E-search_algorithms/search_algos.h
+
+/home/eltueto/Documents/Holberton/holbertonschool-low_level_programming/0x1E-search_algorithms/0-main.c
+search_algos.h
+/home/eltueto/Documents/Holberton/holbertonschool-low_level_programming/0x1E-search_algorithms/search_algos.h
+
+/home/eltueto/Documents/Holberton/holbertonschool-low_level_programming/0x1E-search_algorithms/search_algos.h
+stdlib.h
+-
+stdio.h
+-
+
