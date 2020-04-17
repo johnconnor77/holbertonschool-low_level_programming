@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/eltueto/Documents/Holberton/holbertonschool-low_level_programming/0x1E-search_algorithms/0-linear.c" "/home/eltueto/Documents/Holberton/holbertonschool-low_level_programming/0x1E-search_algorithms/cmake-build-debug/CMakeFiles/0x1E_search_algorithms.dir/0-linear.c.o"
-  "/home/eltueto/Documents/Holberton/holbertonschool-low_level_programming/0x1E-search_algorithms/0-main.c" "/home/eltueto/Documents/Holberton/holbertonschool-low_level_programming/0x1E-search_algorithms/cmake-build-debug/CMakeFiles/0x1E_search_algorithms.dir/0-main.c.o"
+  "/home/eltueto/Documents/Holberton/holbertonschool-low_level_programming/0x1E-search_algorithms/1-binary.c" "/home/eltueto/Documents/Holberton/holbertonschool-low_level_programming/0x1E-search_algorithms/cmake-build-debug/CMakeFiles/0x1E_search_algorithms.dir/1-binary.c.o"
+  "/home/eltueto/Documents/Holberton/holbertonschool-low_level_programming/0x1E-search_algorithms/1-main.c" "/home/eltueto/Documents/Holberton/holbertonschool-low_level_programming/0x1E-search_algorithms/cmake-build-debug/CMakeFiles/0x1E_search_algorithms.dir/1-main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

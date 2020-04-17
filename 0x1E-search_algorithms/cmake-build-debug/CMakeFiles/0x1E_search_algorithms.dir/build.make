@@ -57,42 +57,42 @@ include CMakeFiles/0x1E_search_algorithms.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/0x1E_search_algorithms.dir/flags.make
 
-CMakeFiles/0x1E_search_algorithms.dir/0-main.c.o: CMakeFiles/0x1E_search_algorithms.dir/flags.make
-CMakeFiles/0x1E_search_algorithms.dir/0-main.c.o: ../0-main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eltueto/Documents/Holberton/holbertonschool-low_level_programming/0x1E-search_algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/0x1E_search_algorithms.dir/0-main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/0x1E_search_algorithms.dir/0-main.c.o   -c /home/eltueto/Documents/Holberton/holbertonschool-low_level_programming/0x1E-search_algorithms/0-main.c
+CMakeFiles/0x1E_search_algorithms.dir/1-binary.c.o: CMakeFiles/0x1E_search_algorithms.dir/flags.make
+CMakeFiles/0x1E_search_algorithms.dir/1-binary.c.o: ../1-binary.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eltueto/Documents/Holberton/holbertonschool-low_level_programming/0x1E-search_algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/0x1E_search_algorithms.dir/1-binary.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/0x1E_search_algorithms.dir/1-binary.c.o   -c /home/eltueto/Documents/Holberton/holbertonschool-low_level_programming/0x1E-search_algorithms/1-binary.c
 
-CMakeFiles/0x1E_search_algorithms.dir/0-main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/0x1E_search_algorithms.dir/0-main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eltueto/Documents/Holberton/holbertonschool-low_level_programming/0x1E-search_algorithms/0-main.c > CMakeFiles/0x1E_search_algorithms.dir/0-main.c.i
+CMakeFiles/0x1E_search_algorithms.dir/1-binary.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/0x1E_search_algorithms.dir/1-binary.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eltueto/Documents/Holberton/holbertonschool-low_level_programming/0x1E-search_algorithms/1-binary.c > CMakeFiles/0x1E_search_algorithms.dir/1-binary.c.i
 
-CMakeFiles/0x1E_search_algorithms.dir/0-main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/0x1E_search_algorithms.dir/0-main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eltueto/Documents/Holberton/holbertonschool-low_level_programming/0x1E-search_algorithms/0-main.c -o CMakeFiles/0x1E_search_algorithms.dir/0-main.c.s
+CMakeFiles/0x1E_search_algorithms.dir/1-binary.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/0x1E_search_algorithms.dir/1-binary.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eltueto/Documents/Holberton/holbertonschool-low_level_programming/0x1E-search_algorithms/1-binary.c -o CMakeFiles/0x1E_search_algorithms.dir/1-binary.c.s
 
-CMakeFiles/0x1E_search_algorithms.dir/0-linear.c.o: CMakeFiles/0x1E_search_algorithms.dir/flags.make
-CMakeFiles/0x1E_search_algorithms.dir/0-linear.c.o: ../0-linear.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eltueto/Documents/Holberton/holbertonschool-low_level_programming/0x1E-search_algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/0x1E_search_algorithms.dir/0-linear.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/0x1E_search_algorithms.dir/0-linear.c.o   -c /home/eltueto/Documents/Holberton/holbertonschool-low_level_programming/0x1E-search_algorithms/0-linear.c
+CMakeFiles/0x1E_search_algorithms.dir/1-main.c.o: CMakeFiles/0x1E_search_algorithms.dir/flags.make
+CMakeFiles/0x1E_search_algorithms.dir/1-main.c.o: ../1-main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eltueto/Documents/Holberton/holbertonschool-low_level_programming/0x1E-search_algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/0x1E_search_algorithms.dir/1-main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/0x1E_search_algorithms.dir/1-main.c.o   -c /home/eltueto/Documents/Holberton/holbertonschool-low_level_programming/0x1E-search_algorithms/1-main.c
 
-CMakeFiles/0x1E_search_algorithms.dir/0-linear.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/0x1E_search_algorithms.dir/0-linear.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eltueto/Documents/Holberton/holbertonschool-low_level_programming/0x1E-search_algorithms/0-linear.c > CMakeFiles/0x1E_search_algorithms.dir/0-linear.c.i
+CMakeFiles/0x1E_search_algorithms.dir/1-main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/0x1E_search_algorithms.dir/1-main.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eltueto/Documents/Holberton/holbertonschool-low_level_programming/0x1E-search_algorithms/1-main.c > CMakeFiles/0x1E_search_algorithms.dir/1-main.c.i
 
-CMakeFiles/0x1E_search_algorithms.dir/0-linear.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/0x1E_search_algorithms.dir/0-linear.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eltueto/Documents/Holberton/holbertonschool-low_level_programming/0x1E-search_algorithms/0-linear.c -o CMakeFiles/0x1E_search_algorithms.dir/0-linear.c.s
+CMakeFiles/0x1E_search_algorithms.dir/1-main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/0x1E_search_algorithms.dir/1-main.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eltueto/Documents/Holberton/holbertonschool-low_level_programming/0x1E-search_algorithms/1-main.c -o CMakeFiles/0x1E_search_algorithms.dir/1-main.c.s
 
 # Object files for target 0x1E_search_algorithms
 0x1E_search_algorithms_OBJECTS = \
-"CMakeFiles/0x1E_search_algorithms.dir/0-main.c.o" \
-"CMakeFiles/0x1E_search_algorithms.dir/0-linear.c.o"
+"CMakeFiles/0x1E_search_algorithms.dir/1-binary.c.o" \
+"CMakeFiles/0x1E_search_algorithms.dir/1-main.c.o"
 
 # External object files for target 0x1E_search_algorithms
 0x1E_search_algorithms_EXTERNAL_OBJECTS =
 
-0x1E_search_algorithms: CMakeFiles/0x1E_search_algorithms.dir/0-main.c.o
-0x1E_search_algorithms: CMakeFiles/0x1E_search_algorithms.dir/0-linear.c.o
+0x1E_search_algorithms: CMakeFiles/0x1E_search_algorithms.dir/1-binary.c.o
+0x1E_search_algorithms: CMakeFiles/0x1E_search_algorithms.dir/1-main.c.o
 0x1E_search_algorithms: CMakeFiles/0x1E_search_algorithms.dir/build.make
 0x1E_search_algorithms: CMakeFiles/0x1E_search_algorithms.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/eltueto/Documents/Holberton/holbertonschool-low_level_programming/0x1E-search_algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable 0x1E_search_algorithms"

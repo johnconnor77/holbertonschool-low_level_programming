@@ -78,10 +78,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/eltueto/Documents/Holberton/holbertonschool-low_level_programming/0x1E-search_algorithms/0-linear.c">
+		<Unit filename="/home/eltueto/Documents/Holberton/holbertonschool-low_level_programming/0x1E-search_algorithms/1-binary.c">
 			<Option target="0x1E_search_algorithms"/>
 		</Unit>
-		<Unit filename="/home/eltueto/Documents/Holberton/holbertonschool-low_level_programming/0x1E-search_algorithms/0-main.c">
+		<Unit filename="/home/eltueto/Documents/Holberton/holbertonschool-low_level_programming/0x1E-search_algorithms/1-main.c">
 			<Option target="0x1E_search_algorithms"/>
 		</Unit>
 		<Unit filename="/home/eltueto/Documents/Holberton/holbertonschool-low_level_programming/0x1E-search_algorithms/search_algos.h">

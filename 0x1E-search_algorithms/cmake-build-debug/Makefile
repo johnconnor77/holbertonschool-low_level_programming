@@ -123,59 +123,59 @@ depend:
 	$(MAKE) -f CMakeFiles/0x1E_search_algorithms.dir/build.make CMakeFiles/0x1E_search_algorithms.dir/build
 .PHONY : 0x1E_search_algorithms/fast
 
-0-linear.o: 0-linear.c.o
+1-binary.o: 1-binary.c.o
 
-.PHONY : 0-linear.o
-
-# target to build an object file
-0-linear.c.o:
-	$(MAKE) -f CMakeFiles/0x1E_search_algorithms.dir/build.make CMakeFiles/0x1E_search_algorithms.dir/0-linear.c.o
-.PHONY : 0-linear.c.o
-
-0-linear.i: 0-linear.c.i
-
-.PHONY : 0-linear.i
-
-# target to preprocess a source file
-0-linear.c.i:
-	$(MAKE) -f CMakeFiles/0x1E_search_algorithms.dir/build.make CMakeFiles/0x1E_search_algorithms.dir/0-linear.c.i
-.PHONY : 0-linear.c.i
-
-0-linear.s: 0-linear.c.s
-
-.PHONY : 0-linear.s
-
-# target to generate assembly for a file
-0-linear.c.s:
-	$(MAKE) -f CMakeFiles/0x1E_search_algorithms.dir/build.make CMakeFiles/0x1E_search_algorithms.dir/0-linear.c.s
-.PHONY : 0-linear.c.s
-
-0-main.o: 0-main.c.o
-
-.PHONY : 0-main.o
+.PHONY : 1-binary.o
 
 # target to build an object file
-0-main.c.o:
-	$(MAKE) -f CMakeFiles/0x1E_search_algorithms.dir/build.make CMakeFiles/0x1E_search_algorithms.dir/0-main.c.o
-.PHONY : 0-main.c.o
+1-binary.c.o:
+	$(MAKE) -f CMakeFiles/0x1E_search_algorithms.dir/build.make CMakeFiles/0x1E_search_algorithms.dir/1-binary.c.o
+.PHONY : 1-binary.c.o
 
-0-main.i: 0-main.c.i
+1-binary.i: 1-binary.c.i
 
-.PHONY : 0-main.i
+.PHONY : 1-binary.i
 
 # target to preprocess a source file
-0-main.c.i:
-	$(MAKE) -f CMakeFiles/0x1E_search_algorithms.dir/build.make CMakeFiles/0x1E_search_algorithms.dir/0-main.c.i
-.PHONY : 0-main.c.i
+1-binary.c.i:
+	$(MAKE) -f CMakeFiles/0x1E_search_algorithms.dir/build.make CMakeFiles/0x1E_search_algorithms.dir/1-binary.c.i
+.PHONY : 1-binary.c.i
 
-0-main.s: 0-main.c.s
+1-binary.s: 1-binary.c.s
 
-.PHONY : 0-main.s
+.PHONY : 1-binary.s
 
 # target to generate assembly for a file
-0-main.c.s:
-	$(MAKE) -f CMakeFiles/0x1E_search_algorithms.dir/build.make CMakeFiles/0x1E_search_algorithms.dir/0-main.c.s
-.PHONY : 0-main.c.s
+1-binary.c.s:
+	$(MAKE) -f CMakeFiles/0x1E_search_algorithms.dir/build.make CMakeFiles/0x1E_search_algorithms.dir/1-binary.c.s
+.PHONY : 1-binary.c.s
+
+1-main.o: 1-main.c.o
+
+.PHONY : 1-main.o
+
+# target to build an object file
+1-main.c.o:
+	$(MAKE) -f CMakeFiles/0x1E_search_algorithms.dir/build.make CMakeFiles/0x1E_search_algorithms.dir/1-main.c.o
+.PHONY : 1-main.c.o
+
+1-main.i: 1-main.c.i
+
+.PHONY : 1-main.i
+
+# target to preprocess a source file
+1-main.c.i:
+	$(MAKE) -f CMakeFiles/0x1E_search_algorithms.dir/build.make CMakeFiles/0x1E_search_algorithms.dir/1-main.c.i
+.PHONY : 1-main.c.i
+
+1-main.s: 1-main.c.s
+
+.PHONY : 1-main.s
+
+# target to generate assembly for a file
+1-main.c.s:
+	$(MAKE) -f CMakeFiles/0x1E_search_algorithms.dir/build.make CMakeFiles/0x1E_search_algorithms.dir/1-main.c.s
+.PHONY : 1-main.c.s
 
 # Help Target
 help:
@@ -186,12 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... 0x1E_search_algorithms"
 	@echo "... edit_cache"
-	@echo "... 0-linear.o"
-	@echo "... 0-linear.i"
-	@echo "... 0-linear.s"
-	@echo "... 0-main.o"
-	@echo "... 0-main.i"
-	@echo "... 0-main.s"
+	@echo "... 1-binary.o"
+	@echo "... 1-binary.i"
+	@echo "... 1-binary.s"
+	@echo "... 1-main.o"
+	@echo "... 1-main.i"
+	@echo "... 1-main.s"
 .PHONY : help
 
 
